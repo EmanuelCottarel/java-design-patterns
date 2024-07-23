@@ -9,6 +9,7 @@ public class Additif extends Element{
 
     @Override
     public String toString() {
-        return "Additif{} ";
+        System.out.println(this.getNom());
+        return this.getNom();
     }
 }

@@ -9,6 +9,6 @@ public class Allergene extends Element{
 
     @Override
     public String toString() {
-        return "Allergene{}";
+        return this.getNom();
     }
 }

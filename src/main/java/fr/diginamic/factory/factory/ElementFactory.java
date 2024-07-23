@@ -18,7 +18,7 @@ public class ElementFactory {
             case INGREDIENT:
                 return new Ingredient(name, valeur, unite);
             default:
-                return null;
+                throw new IllegalArgumentException("Type d'élément inconnu: " + type);
         }
     }
 }

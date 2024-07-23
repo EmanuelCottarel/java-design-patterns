@@ -9,6 +9,6 @@ public class Ingredient extends Element{
 
     @Override
     public String toString() {
-        return "Ingredient{} ";
+        return this.getNom();
     }
 }

@@ -1,5 +1,6 @@
 package fr.diginamic.factory;
 
+import fr.diginamic.factory.entites.Additif;
 import fr.diginamic.factory.entites.Element;
 import fr.diginamic.factory.enums.TypesElement;
 import fr.diginamic.factory.enums.Unite;
@@ -13,5 +14,6 @@ public class FactoryTest {
         System.out.println(additif);
         Element allergene = ElementFactory.getElement(TypesElement.ALLERGENE, "milk", 10, Unite.MILLI_GRAMMES);
         System.out.println(allergene);
+
     }
 }
